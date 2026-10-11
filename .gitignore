@@ -1,0 +1,18 @@
+# fichiers compiles
+*.o
+cnn
+
+# donnees MNIST : trop volumineuses pour GitHub, a telecharger separement (voir README)
+data/mnist/*
+!data/mnist/.gitkeep
+
+# resultats ecrits par le programme dans data/
+data/*.csv
+
+# restes d'IDE (Code::Blocks)
+*.cbp
+*.layout
+*.depend
+*.log
+bin/
+obj/
